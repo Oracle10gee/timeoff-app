@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import SignUp from './SignUp';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch,Link } from "react-router-dom";
 
 
 class App extends Component {
