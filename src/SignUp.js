@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from './Navbar';
-
+import {Link} from "react-router-dom";
 
 export default class SignUp extends Component{
   constructor(props){
@@ -225,8 +225,9 @@ submitForm(e){
                 <option value="Gmt+10"/>
                 </datalist>
                 </div>
-                                
+               <Link to="/Login">                 
               <button className="btn btn-primary btn-block" >Create Account</button>
+              </Link>
             </form>
         </div>
       </div>

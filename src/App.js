@@ -5,7 +5,7 @@ import "./App.css";
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import SignUp from './SignUp';
 import { BrowserRouter as Router, Route, Switch,Link } from "react-router-dom";
-
+import Login from './Login';
 
 class App extends Component {
   render() {
@@ -14,7 +14,8 @@ class App extends Component {
         <div>
           <Switch>
           <Route path="/" exact component={LandingPage} />
-          <Route path="/SignUp" component={SignUp} /> 
+          <Route path="/SignUp" component={SignUp} />
+          <Route path="/Login" component={Login} /> 
           <Route component={LandingPage}/>
           </Switch>
         </div>
