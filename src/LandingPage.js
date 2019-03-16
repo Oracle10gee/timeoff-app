@@ -12,9 +12,9 @@ export default class LandingPage extends Component {
                 
                 </Link>
                   <p class="card-text text-center"  >Open source, simple yet powerful absence management software for small and medium size business.</p>
-                  <p class='text-center'>Endorsed by&nbsp;<a href="https://bootstrapstudio.io/releases/app/4.1.2/#">hundreds&nbsp;</a>of software developers</p>
+                  <p class='text-center'>Endorsed by&nbsp;<a href="#">hundreds&nbsp;</a>of software developers</p>
                   <Link to="/SignUp">
-                  <button class="btn btn-success">Sign Up</button>
+                  <button class="btn btn-primary">Sign Up</button>
                   </Link>
                 </div>
 
