@@ -1,3 +1,49 @@
+// import React, { Component } from 'react';
+// import NoteApp from "./NoteApp";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import "./App.css";
+
+
+
+// class App extends Component {
+  
+//   render() {
+//     return (
+//       <div>
+//         <NoteApp />
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React, { Component } from 'react';
 import LandingPage from "./LandingPage";
 import 'bootstrap/dist/css/bootstrap.min.css';

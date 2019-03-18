@@ -116,7 +116,7 @@ export default class Login extends Component {
   render() {
     return (
       <div className="form-container">
-        <Navbar/>
+        <Navbar />
         <form className="box">
           <h1>LOGIN</h1>
           <input type="text" placeholder="Enter name or email" name="" />

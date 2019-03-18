@@ -7,7 +7,10 @@
   height: 400px;
 } */
 
-
+.body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
 
 
 .form-container{
@@ -24,17 +27,17 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #34495e;
+  background: whitesmoke;
   text-align: center;
   border-radius: 24px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .box:hover{
-  box-shadow: 2px 5px 10px rgb(0, 255, 64);
+  box-shadow: 2px 5px 10px black;
 
 }
 .box h1{
-  color: white;
+  color: gray;
   font-weight: 500;
 }
 .box input[type = "text"], .box input[type = "password"]{
@@ -47,7 +50,7 @@
   padding: 14px 10px;
   width: 300px;
   outline: none;
-  color: white;
+  color: navy;
   border-radius: 24px;
   transition: 0.25s; 
 }
@@ -56,11 +59,38 @@
   border-radius: 24px;
 }
 .navbar{
-  background: #34495e;
+  background: darkslategray;
   padding-bottom: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: sans-serif;
+  border-radius: 10px;
 }
 .box input[type = "text"]:focus, .box input[type = "password"]:focus{
   width: 280px;
   border-color: #2ecc71;
+}
+.card{
+  background: url("")
+}
+.img-fluid{
+  border-radius: 17px;
+}
+#awesome{
+  margin-left: 205px;
+  font-size: 60px;
+}
+/* i{
+  font-size: px;
+} */
+.row-articles{
+  margin-left: 350px;
+}
+h2{
+  text-align: center;
+}
+hr{
+  border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
 }
