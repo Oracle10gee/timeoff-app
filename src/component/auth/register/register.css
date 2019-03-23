@@ -1,0 +1,12 @@
+.bg-teal{
+    background-color: rgb(80, 80, 247);
+    padding-top: 8%;
+    color: black;
+    font-size: 2em;
+}
+.container{
+    font-weight: 800;
+}
+#mb5{
+    background: url('https://www.sciencenews.org/sites/default/files/2017/11/main/articles/112117_EC_arrow-of-time_main_FREE.jpg');
+}

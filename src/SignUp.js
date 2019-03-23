@@ -133,7 +133,7 @@ submitForm(e){
         <Navbar/>
         <div className="container" style={{fontWeight: "bold"}}>
     <div className="card card-login mx-auto mt-5">
-      <div className="card-header">Register here</div>
+      <div className="card-header" style={{backgroundColor: "darkslategray"}}>Register here</div>
         <div className="card-body">
             <form id="signup-form">
             <div className="form-group">
