@@ -147,8 +147,8 @@ class NewAbsenceForm extends Component {
         </nav>
             <div className="container absence mt-3 align-center ">
                 <div className="card align-center">
-  <div className="card-header text-center">
-  <h5>Request For Leave</h5>
+  <div className="card-header text-center btn btn-danger">
+  <h5 style={{color: "black"}}>Request For Leave</h5>
   </div>
   <div className="card-body">
     <div className="row">
