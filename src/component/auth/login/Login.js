@@ -138,7 +138,7 @@ class Login extends React.Component{
                 </div>
             
                   { formValid(this.state) ?    
-                  <button onClick={this.handleSubmit} type="button" className="btn btn-primary text-light">
+                  <button onClick={this.handleSubmit} type="button" className="btn btn-danger text-light">
                        <Link  className="text-light" to="/employee-dashboard">Login</Link>
                   </button>
                   :    <button type="submit" className="btn btn-danger text-light">Login</button>

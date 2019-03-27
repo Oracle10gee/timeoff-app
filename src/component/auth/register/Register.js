@@ -267,8 +267,8 @@ class Register extends React.Component{
                     </div>
             
                 { formValid(this.state) ? 
-                <button className="btn btn-primary ">
-                <Link className="text-light" to="/employee-dashboard">Register</Link></button> :
+                <button className="btn btn-danger ">
+                <Link className="text-light" to="/login">Sign Up</Link></button> :
                       <button type="submit" className="btn btn-danger">Sign Up</button>
                 }
              
