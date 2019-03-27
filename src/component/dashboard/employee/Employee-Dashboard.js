@@ -85,7 +85,7 @@ class EmployeeDashboard extends Component {
             </div>
             </nav>
      
-                <div  className="text-center ml-3 mt-3">
+                <div  className="text-center ml-3 mt-3" >
                 <h3>Empolyee Dashboard</h3>
                 <h5>{username}</h5>
                 </div>
@@ -156,7 +156,7 @@ class EmployeeDashboard extends Component {
                         </div>
 
                     </div>
-                    <h2 className="text-center mt-4 mb-3 ">
+                    <h2 className="text-center mt-4 mb-3 " style={{color: "red"}}>
                     Calendar  <button onClick={this.handeleShowMore} className="btn btn-danger">{
                         !this.state.showMore ? 'Show More' : 'Show Less'
                     }</button> </h2>
@@ -182,7 +182,7 @@ class EmployeeDashboard extends Component {
                     </div>
                         
 
-                    <h3 className="text-center mt-3">All Absences</h3>
+                    <h3 className="text-center mt-3" style={{color: "red"}}>All Absences</h3>
                     <div className="row mb-5 py-3">
                         <div className="col-12">
                         <table className="table table-hover">
