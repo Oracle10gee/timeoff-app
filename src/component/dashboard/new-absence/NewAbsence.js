@@ -6,9 +6,9 @@ import './style.css';
 const typeOfTimeOff = [
     {name: '-- Select Leave Type --', day: 1},
     {name: 'Vacation', days: 2},
-    {name: 'Maternity Leave', days: 10},
-    {name: 'Medical Checkup', days: 5},
-    {name: 'Marriage Purpose', days: 7},
+    {name: 'Special Occasion', days: 2},
+    {name: 'Medical Reasons', days: 7},
+    {name: 'Marriage Leave', days: 7},
 ]
 let date = new Date();
 date = `${date.getFullYear()}-0${date.getMonth() + 1 }-${date.getDate()}`
@@ -106,7 +106,7 @@ class NewAbsenceForm extends Component {
     render() {
         return(
             <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-primary navbar-fixed-top  ">
+            <nav className="navbar navbar-expand-lg navbar-light bg-danger navbar-fixed-top  ">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -238,7 +238,7 @@ class NewAbsenceForm extends Component {
     </div>
   </div>
   <div className="card-footer">
-    <button onClick={this.hamdleFormSubmit} className="btn btn-primary">Submit</button>
+    <button onClick={this.hamdleFormSubmit} className="btn btn-danger">Submit</button>
   </div>
 </div>
             </div>

@@ -3,25 +3,25 @@ import { Link } from 'react-router-dom'
 import './style.css'
 
 const allLeaveRequest = [
-    {   employee: 'Somoye', department: 'Accounting', DOR: '01/02/2018', 
-        leavedate: 'from 04/02/2018 to 10/02/2018', type: 'Vacation', days: 8 
+    {   employee: 'Victor', department: 'android', DOR: '01/02/2018', 
+        leavedate: 'from 03/02/2018 to 10/02/2018', type: 'Vacation', days: 7 
     },
-    {  employee: 'Tunde', department: 'Finance', DOR: '07/05/2018', 
+    {  employee: 'Samuel', department: 'A.I', DOR: '07/05/2018', 
     leavedate: 'from 11/05/2018 to 20/05/2018', type: 'Medical Checkup', days: 9
     },
-    {  employee: 'Mayowa', department: 'Marketing', DOR: '23/09/2018', 
-    leavedate: 'from 23/09/2018 to 30/05/2018', type: 'Special Occassion', days: 7
+    {  employee: 'Ibrahim', department: 'Graphics', DOR: '23/09/2018', 
+    leavedate: 'from 23/09/2018 to 30/05/2018', type: 'Wedding Occasion', days: 3
     },
 ]
 const allLeaves = [
-    {type: 'Vacation', deducted: '6', date: 'from 04/02/2018 to 10/02/2018', approvedBy:'Jide', status: 'Approved'},
-    {type: 'Medical Checkup', deducted: '9', date: 'from 11/05/2018 to 20/05/2018', approvedBy:'Thomas', status: 'Declined'}
+    {type: 'Vacation', deducted: '6', date: 'from 03/02/2018 to 10/02/2018', approvedBy:'Ireti', status: 'Approved'},
+    {type: 'Medical Checkup', deducted: '9', date: 'from 11/05/2018 to 20/05/2018', approvedBy:'Mayowa', status: 'Declined'}
 ]
 
 class TeamView extends Component {
     render() {
         return (
-        <div>           <nav className="navbar navbar-expand-lg navbar-light bg-primary navbar-fixed-top  ">
+        <div>           <nav className="navbar navbar-expand-lg navbar-light bg-danger navbar-fixed-top  ">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

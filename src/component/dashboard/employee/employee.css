@@ -17,5 +17,12 @@
     margin-right: 5%
 }
 .col-md-3 .react-calendar {
-    max-height: 340px !important;
+    max-height: 300px !important;
+    border-radius: 24px;
+}
+.col-md-3 .react-calendar:hover{
+    box-shadow: 2px 5px 10px black;
+}
+.row{
+    border-radius: 24px;
 }

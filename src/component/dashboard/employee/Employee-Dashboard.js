@@ -1,6 +1,6 @@
 import React , { Component } from 'react';
 import { Link } from 'react-router-dom'
-// import Calendar from 'react-calendar';
+import Calendar from 'react-calendar';
 import './employee.css';
 
 // Render the Calendar
@@ -91,13 +91,15 @@ class EmployeeDashboard extends Component {
                 </div>
 
                 <div className="container">
-                    {/* <h3 className="text-center">Statistics</h3> */}
-                    <div className="row p mt-5 statistics">
+                <hr />
+                    <h3 className="text-center" style={{color: "red"}}>Statistics</h3>
+                    <hr />
+                    <div className="row mt-5 statistics">
                         <div className="col-md-3 sta">
                         <div className="card">
                             <div className="card-header bg-danger text-light">Days Remaining</div>
                             <div className="card-body">
-                                <h1>11 Days</h1>
+                                <h1>10 Days</h1>
                                 <h6>Out Of 20 Working Days</h6>
                             </div> 
                         </div>
@@ -163,15 +165,15 @@ class EmployeeDashboard extends Component {
                     { !this.state.showMore ?
                         calendarDate.map((item, index) => {
                             return <div key={index} className="col-md-3 ">
-                            {/* <Calendar 
+                            <Calendar 
                                 value={item}
-                                /> */}
+                                />
                             </div>  
                         }) : MoreCalendarDate.map((item, index) => {
                             return <div key={index} className="col-md-3 mb-2">
-                            {/* <Calendar
+                            <Calendar
                                 value={item}
-                                /> */}
+                                />
                             </div>  
                         })
                     }
